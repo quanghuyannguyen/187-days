@@ -1,6 +1,6 @@
 const images = [];
 for (let i = 1; i <= 197; i++) {
-  images.push(`images/image${i}.jpeg`);
+  images.push(`image${i}.jpeg`);
 }
 
 const FINAL_MESSAGE = `You see, after all the joy and sorrow, we made it to 187 days of meeting each other. I’ve been falling in love with you for 294 days, and we’ve met each other every single day for 187 days straight. That’s such an incredible thing, and honestly, I never thought we would make it this far so naturally. We never set it as a goal, but somehow, day by day, we did it together.
