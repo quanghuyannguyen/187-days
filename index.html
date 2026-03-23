@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>187 Days</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="fireworks"></canvas>
+
+  <main class="container">
+    <section id="intro" class="screen active">
+      <div class="content glass fade-in">
+        <p class="eyebrow">for us</p>
+        <h1>
+          helu vit con dang yeu cua tuii! we've been through <span>187 days</span> meeting each other everyday,
+          lets do a recap on today shall we? Hope you like it!
+        </h1>
+        <button id="startBtn" class="start-btn">begin</button>
+      </div>
+    </section>
+
+    <section id="experience" class="screen hidden">
+      <div id="stage" class="stage">
+        <p class="eyebrow stage-label">every memory led here</p>
+
+        <div class="preview-wrap">
+          <div id="previewFrame" class="image-frame">
+            <img id="timelineImage" src="" alt="memory image" />
+            <div class="frame-shade"></div>
+          </div>
+          <p id="imageCounter" class="counter"></p>
+        </div>
+
+        <div id="mosaicContainer" class="mosaic-container"></div>
+      </div>
+    </section>
+
+    <section id="final" class="screen hidden">
+      <div class="content glass fade-in final-card">
+        <p class="eyebrow">and finally...</p>
+        <h2 id="finalMessage" class="final-text"></h2>
+      </div>
+    </section>
+  </main>
+
+  <audio id="bgMusic" src="audio/music.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
